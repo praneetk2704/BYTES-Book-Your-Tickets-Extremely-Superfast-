@@ -58,7 +58,7 @@ If you have an SBI Debit Card, you can further save 4-5 seconds as the script pr
 Otherwise, if you have any other bank debit card, keep your card number and name already written somewhere, and at the time of booking, paste it in the respective fields.
 Once you have added your bank in the 'Preferred Banks' section, let us take a look at using the auto-payment feature. These are the following fields you'll have to enter.
 1. **auto_payment** : Whether you want to use this feature or not. (Enter **Y** for yes and **N** for no.)
-2. **auto_payment_option** : Which option so you want to choose for auto-payment? (**1** = Preferred Banks, **2** = IRCTC eWallet. For                                eg., if you want to use the eWallet feature for payment, enter **2** in this field.)
+2. **auto_payment_option** : Which option do you want to choose for auto-payment? (**1** = Preferred Banks, **2** = IRCTC eWallet. For                                eg., if you want to use the eWallet feature for payment, enter **2** in this field.)
 3. **auto_payment_suboption** : To be entered only if the **auto_payment_option** is set to **1**. This field can take only values from                                 1 to 6, and represents the order of your bank in the 'Preferred Banks' section. You'll understand it                                     better from the below image.
 4. **eWallet_password** : Your IRCTC eWallet password. To be entered only if the **auto_payment_option** is set to **2**.
 
