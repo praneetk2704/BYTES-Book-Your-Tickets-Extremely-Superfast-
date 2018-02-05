@@ -62,23 +62,17 @@ Once you have added you bank in the 'Preferred Banks' section, let us take a loo
 3. **auto_payment_suboption** : To be entered only if the **auto_payment_option** is set to **1**. This field can take only values from                                 1 to 6, and represents the order of your bank in the 'Preferred Banks' section. You'll understand it                                     better from the below image.
 4. **eWallet_password** : Your IRCTC eWallet password. To be entered only if the **auto_payment_option** is set to **2**.
 
-<br />
-![image](https://user-images.githubusercontent.com/29803330/35818504-46978f6e-0ac6-11e8-95dd-191b55ebe8bf.png)
-<br />
+<br />![image](https://user-images.githubusercontent.com/29803330/35818504-46978f6e-0ac6-11e8-95dd-191b55ebe8bf.png)<br />
 
 For eg., in the above image, if you want to select ICICI bank net banking as your payment method, the above 4 fields will look something like this.
 
-<br />
-![image](https://user-images.githubusercontent.com/29803330/35818744-d07cd48c-0ac6-11e8-9963-d4af076d0482.png)
-<br />
+<br />![image](https://user-images.githubusercontent.com/29803330/35818744-d07cd48c-0ac6-11e8-9963-d4af076d0482.png)<br />
 
 Selecting **auto_payment_suboption** as **2** means the order of the bank in the sequence. If it were instead **1**, it will select SBI Debit card.
 
 Now suppose, you wanted to use the eWallet method for booking, then the 4 fields will look something like this.
 
-<br />
-![image](https://user-images.githubusercontent.com/29803330/35819000-811c1604-0ac7-11e8-9dc3-7860f41b2575.png)
-<br />
+<br />![image](https://user-images.githubusercontent.com/29803330/35819000-811c1604-0ac7-11e8-9dc3-7860f41b2575.png)<br />
 
 The last four input fields of this script are to be entered **ONLY IF YOU HAVE AN SBI DEBIT CARD**. Else, leave it blank.
 1. **card_id** : Your debit card number.
