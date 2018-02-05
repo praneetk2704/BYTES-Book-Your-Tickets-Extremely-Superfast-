@@ -1,6 +1,6 @@
 # BYTES-Book-Your-Tickets-Extremely-Superfast-
 
-When was the last time you tried to book a Tatkal ticket but failed to do so owing to its high demand? Well, no worries BYTES is there to help you out. It's a Python script that lets you book tatkal tickets within a minute. Selenium is used here for scraping and form-filling. 
+When was the last time you tried to book a Tatkal ticket but failed to do so owing to its high demand? Well, no worries, BYTES is there to help you out. It's a Python script that lets you book tatkal tickets within a minute. Selenium is used here for scraping and form-filling. 
 
 
 Now let's come to the good part. In order to speedily book your tickets, all you gotta do is input all the data like source, destination, date of journey, passenger details, etc. The user input part is the most important part of the script. If you fill up the data in perfect accordance with the steps given below, your ticket will be booked for sure. And please make sure that all the input is entered within inverted commas. 
@@ -56,7 +56,7 @@ Now comes another important part, the payment section. At present, the script al
 As there are close to 25 banks on the IRCTC website, it was not possible to provide auto-click option for each one of those. To overcome this problem, you can add your bank in the 'Preferred Banks' section. (At max 6 banks can be added to the preferred banks section).
 If you have an SBI Debit Card, you can further save 4-5 seconds as the script provides you to auto-fill your card no, validity and name. Providing this feature for all other banks was not possible for obvious reasons. Also, the ATM password auto-fill is not added for security purposes. Long story short, an SBI debit card will be your best bet for booking your ticket, cause you'll only have to enter your ATM password and captcha. <br /><br />
 Otherwise, if you have any other bank debit card, keep your card number and name already written somewhere, and at the time of booking, paste it in the respective fields.
-Once you have added you bank in the 'Preferred Banks' section, let us take a look at using the auto-payment feature. These are the following field you'll have to enter.
+Once you have added your bank in the 'Preferred Banks' section, let us take a look at using the auto-payment feature. These are the following fields you'll have to enter.
 1. **auto_payment** : Whether you want to use this feature or not. (Enter **Y** for yes and **N** for no.)
 2. **auto_payment_option** : Which option so you want to choose for auto-payment? (**1** = Preferred Banks, **2** = IRCTC eWallet. For                                eg., if you want to use the eWallet feature for payment, enter **2** in this field.)
 3. **auto_payment_suboption** : To be entered only if the **auto_payment_option** is set to **1**. This field can take only values from                                 1 to 6, and represents the order of your bank in the 'Preferred Banks' section. You'll understand it                                     better from the below image.
@@ -79,3 +79,19 @@ The last four input fields of this script are to be entered **ONLY IF YOU HAVE A
 2. **card_validity_month** : Enter in numeric form, i.e., **04** = April, **10** = October, etc.
 3. **card_validity_year** : Enter in numeric form, for eg., **2012**, **2015**, etc.
 4. **card_name** : Cardholder's name. To be entered in uppercase only.
+
+Now that we are done with the user input, here are a few tips for tatkal ticket booking.
+1. Run this script exactly 1 min prior to booking time, i.e. 9:59:00 AM (for AC) or 10:59:00 AM (for Non AC). Fill up the captcha.
+2. Press the Login button at exactly 9:59:55 AM / 10:59:55 AM.
+3. As previously mentioned, an SBI debit card will be your best bet for booking your ticket.
+4. IRCTC has introduced a new feature of security question just before going to the Payments page. Answer this question very carefully,    because if you get it wrong, you'll have to start all over.
+5. In the end, relax, it's just a ticket. No need to fret over it so much.
+
+**IMPORTANT**
+I know that many Google Chrome extensions exist which do the same job, but here is where BYTES has an edge over the others.
+1. Google Chrome extensions require you to enter your login credentials and in some cases, your bank account details. There is a chance that your details might be misused as you don't know what's happening in the background. BYTES being open source, all your data is stored locally in the Python file and is visible to you. So if you are paranoid about your login credentials or bank details, BYTES is there for you. I agree that it doesn't have a fancy UI, but hey, it gets the job done!
+2. Ability to handle alert boxes, saving you a few more seconds. You'll know what I'm talking about after seeing the demo video.
+
+Link for demo video : https://drive.google.com/open?id=1_1j26VT7551Q2OjSGdNYIieUB86znLIp
+
+Happy journey!
