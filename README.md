@@ -30,4 +30,14 @@ Now comes the passenger details. For a general quota ticket, maximum of 6 adults
 
 **IMPORTANT** <br />
 Leave the credentials of the other passengers blank in case you are less than 6 people travelling. For eg, if you are 3 people travelling on general quota, fill up the credentials from passenger 1 to passenger 3 and keep the remaining credentials (4-6) blank.
-Also in tatkal quota, the credentials of only the first 4 passengers (1-4) will be taken into account.
+Also in tatkal quota, the credentials of only the first 4 passengers (1-4) will be taken into account. <br /><br />
+
+Now comes the child passenger details. At most 2 children can be booked on a single ticket. Three details exist for each child. These are mentioned in the same order as the script.
+1. **child_passenger** : Name of the child. To be entered in uppercase.
+2. **child_age** : Age of the child. (**0** = Below onw year, **1** = One year, **2** = Two years, **3** = Three years, **4** = Four                        years. For eg., if the child is below one year, enter **0** in this field.)
+3. **child_gender** : Gender of the child. (**M** = Male, **F** = Female. For eg., if the child is male, enter **M** in this field.)
+
+Now we have the miscellaneous options. Filling these fields is not mandatory, though you can always choose. Again, these are mentioned in the same order as in the script. For the uninitiated, I'm talking about this secton. <br /><br />
+![screenshot_3](https://user-images.githubusercontent.com/29803330/35811911-a6597d56-0ab5-11e8-9d0d-eeb64b7ccd66.jpg) <br />
+
+1. **auto_upgrade** : 
