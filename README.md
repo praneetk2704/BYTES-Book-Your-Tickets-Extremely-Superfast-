@@ -52,4 +52,36 @@ For the below 3 options, at max one of them is to be selected as **Y**. <br />
 7. **coach_id** : To be entered only if the previous field is set to **Y**. For eg., if you are booking in sleeper class and ant your                     seat in S7 coach, enter **S7** in this field.
 8. **mobile_no** : Contact number where your ticket will be sent. Mandatory field.
 
-Now comes another important part, the payment section.
+Now comes another important part, the payment section. At present, the script allows two methods of payment, 'IRCTC eWallet' and 'Preferred Banks'. The eWallet used to be the fastest mode of payment, until IRCTC introduced OTP for this feature. But still, you have the option to pay using this feature in the script. So, as of now, the fastest mode for payment is Debit Card, as it does not require OTP (for majority of the banks), but instead your ATM password, saving you those precious few seconds.
+As there are close to 25 banks on the IRCTC website, it was not possible to provide auto-click option for each one of those. To overcome this problem, you can add your bank in the 'Preferred Banks' section. (At max 6 banks can be added to the preferred banks section).
+If you have an SBI Debit Card, you can further save 4-5 seconds as the script provides you to auto-fill your card no, validity and name. Providing this feature for all other banks was not possible for obvious reasons. Also, the ATM password auto-fill is not added for security purposes. Long story short, an SBI debit card will be your best bet for booking your ticket, cause you'll only have to enter your ATM password and captcha.
+Otherwise, if you have any other bank debit card, keep your card number and name already written somewhere, and at the time of booking, paste it in the respective fields.
+Once you have added you bank in the 'Preferred Banks' section, let us take a look at using the auto-payment feature. These are the following field you'll have to enter.
+1. **auto_payment** : Whether you want to use this feature or not. (Enter **Y** for yes and **N** for no.)
+2. **auto_payment_option** : Which option so you want to choose for auto-payment? (**1** = Preferred Banks, **2** = IRCTC eWallet. For                                eg., if you want to use the eWallet feature for payment, enter **2** in this field.)
+3. **auto_payment_suboption** : To be entered only if the **auto_payment_option** is set to **1**. This field can take only values from                                 1 to 6, and represents the order of your bank in the 'Preferred Banks' section. You'll understand it                                     better from the below image.
+4. **eWallet_password** : Your IRCTC eWallet password. To be entered only if the **auto_payment_option** is set to **2**.
+
+<br />
+![image](https://user-images.githubusercontent.com/29803330/35818504-46978f6e-0ac6-11e8-95dd-191b55ebe8bf.png)
+<br />
+
+For eg., in the above image, if you want to select ICICI bank net banking as your payment method, the above 4 fields will look something like this.
+
+<br />
+![image](https://user-images.githubusercontent.com/29803330/35818744-d07cd48c-0ac6-11e8-9963-d4af076d0482.png)
+<br />
+
+Selecting **auto_payment_suboption** as **2** means the order of the bank in the sequence. If it were instead **1**, it will select SBI Debit card.
+
+Now suppose, you wanted to use the eWallet method for booking, then the 4 fields will look something like this.
+
+<br />
+![image](https://user-images.githubusercontent.com/29803330/35819000-811c1604-0ac7-11e8-9dc3-7860f41b2575.png)
+<br />
+
+The last four input fields of this script are to be entered **ONLY IF YOU HAVE AN SBI DEBIT CARD**. Else, leave it blank.
+1. **card_id** : Your debit card number.
+2. **card_validity_month** : Enter in numeric form, i.e., **04** = April, **10** = October, etc.
+3. **card_validity_year** : Enter in numeric form, for eg., **2012**, **2015**, etc.
+4. **card_name** : Cardholder's name. To be entered in uppercase only.
