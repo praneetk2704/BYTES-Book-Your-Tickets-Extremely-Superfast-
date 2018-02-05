@@ -87,7 +87,7 @@ Now that we are done with the user input, here are a few tips for tatkal ticket 
 4. IRCTC has introduced a new feature of security question just before going to the Payments page. Answer this question very carefully,    because if you get it wrong, you'll have to start all over.
 5. In the end, relax, it's just a ticket. No need to fret over it so much.
 
-**IMPORTANT**
+**IMPORTANT** <br />
 I know that many Google Chrome extensions exist which do the same job, but here is where BYTES has an edge over the others.
 1. Google Chrome extensions require you to enter your login credentials and in some cases, your bank account details. There is a chance that your details might be misused as you don't know what's happening in the background. BYTES being open source, all your data is stored locally in the Python file and is visible to you. So if you are paranoid about your login credentials or bank details, BYTES is there for you. I agree that it doesn't have a fancy UI, but hey, it gets the job done!
 2. Ability to handle alert boxes, saving you a few more seconds. You'll know what I'm talking about after seeing the demo video.
