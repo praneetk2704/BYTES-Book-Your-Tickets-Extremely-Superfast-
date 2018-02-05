@@ -93,5 +93,6 @@ I know that many Google Chrome extensions exist which do the same job, but here 
 2. Ability to handle alert boxes, saving you a few more seconds. You'll know what I'm talking about after seeing the demo video.
 
 Link for demo video : https://drive.google.com/open?id=1_1j26VT7551Q2OjSGdNYIieUB86znLIp
+Refer to Sample Input.txt for the user input used for the demo video.
 
 Happy journey!
