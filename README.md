@@ -49,7 +49,7 @@ For the below 3 options, at max one of them is to be selected as **Y**. <br />
 &nbsp; &nbsp; 5. **two_lb** : Book only if at least two lower berths are allotted. <br />
 
 6. **preferred_coach_id** : If yes, enter the coach id in the next field.
-7. **coach_id** : To be entered only if the previous field is set to **Y**. For eg., if you are booking in sleeper class and ant your                     seat in S7 coach, enter **S7** in this field.
+7. **coach_id** : To be entered only if the previous field is set to **Y**. For eg., if you are booking in sleeper class and want your                     seat in S7 coach, enter **S7** in this field.
 8. **mobile_no** : Contact number where your ticket will be sent. Mandatory field.
 
 Now comes another important part, the payment section. At present, the script allows two methods of payment, 'IRCTC eWallet' and 'Preferred Banks'. The eWallet used to be the fastest mode of payment, until IRCTC introduced OTP for this feature. But still, you have the option to pay using this feature in the script. So, as of now, the fastest mode for payment is Debit Card, as it does not require OTP (for majority of the banks), but instead your ATM password, saving you those precious few seconds. <br /><br />
