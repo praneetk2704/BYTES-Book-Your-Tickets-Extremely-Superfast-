@@ -92,7 +92,7 @@ I know that many Google Chrome extensions exist which do the same job, but here 
 1. Google Chrome extensions require you to enter your login credentials and in some cases, your bank account details. There is a chance that your details might be misused as you don't know what's happening in the background. BYTES being open source, all your data is stored locally in the Python file and is visible to you. So if you are paranoid about your login credentials or bank details, BYTES is there for you. I agree that it doesn't have a fancy UI, but hey, it gets the job done!
 2. Ability to handle alert boxes, saving you a few more seconds. You'll know what I'm talking about after seeing the demo video.
 
-Link for demo video : https://drive.google.com/open?id=1_1j26VT7551Q2OjSGdNYIieUB86znLIp
+Link for demo video : https://drive.google.com/open?id=1_1j26VT7551Q2OjSGdNYIieUB86znLIp <br />
 Refer to Sample Input.txt for the user input used for the demo video.
 
 Happy journey!
