@@ -18,5 +18,15 @@ These are the following fields you'll have to enter as user input in the script.
 8. boarding_station : The station where you will board the train. Leave it blank if your source station and boarding station are the same.
 9. quota : Your booking quota. (GN = General, PT = Premium Tatkal, HP = Physically handicapped, LD = Ladies, TQ = Tatkal, SS = Senior                Citizen. For eg. if you are booking in Tatkal quota, enter TQ in the field.)
 
-Now comes the passenger details. For a general quota ticket, maximum of 6 adults and 2 children can be booked on a single PNR. While for a tatkal ticket, the figures are 4 adults and 2 children. The details of each passenger consist of 6 records. They are mentioned below in the same order as the script.
+Now comes the passenger details. For a general quota ticket, maximum of 6 adults and 2 children can be booked on a single PNR. While for a tatkal ticket, the figures are 4 adults and 2 children. The details of each passenger consist of 7 records. They are mentioned below in the same order as the script.
 
+1. passenger : Name of the passenger. To be entered in uppercase.
+2. age : Age of the passenger.
+3. gender : Gender of the passenger. (M = Male, F = Female, T = Transgender. For eg. if the passenger is female, enter F in this field.)
+4. berth : Berth preference (LB = Lower berth, MB = Middle berth, UB = Upper berth, SL = Side Lower, SU = Side Upper, WS = Window Side.            For eg., if you want the upper berth, enter UB in this field). This field is not mandatory and can be skipped. Please note              that WS is to be entered only for CC and 2S class.
+5. meal : Meal preference (V = Veg, N = Non Veg, D = No Food. For eg., if you wish to eat non-veg, enter N in this field). To be entered           only for Shatabdi, Rajdhani, Duronto or any such trains where food is served. Do note that this field is mandatory if food is           served in your train. Else, you can leave it blank.
+6. concession_preference : To be availed only if you are a senior citizen. For females, the age limit is 58 years and for males it is 60                            years. (1 = Avail full concession, 2 = Forgo 50% concession, 3 = Forgo full concession. For eg., if you wish                            to avail the full concession (why wouldn't you :P), enter 1 in this field.)
+7. bed_roll : Available only in Garib Rath trains and Duronto sleeper class at a charge of ₹25 per passenger. If you wish to avail this               service, enter Y in this field, else leave it blank.
+
+Leave the credentials of the other passengers blank in case you are less than 6 people travelling. For eg, if you are 3 people travelling on general quota, fill up the credentials from passenger 1 to passenger 3 and keep the remaining credentials (4-6) blank.
+Also in tatkal quota, the credentials of only the first 4 passengers (1-4) will be taken into account.
