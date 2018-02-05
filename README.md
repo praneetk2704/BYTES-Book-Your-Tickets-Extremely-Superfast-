@@ -44,9 +44,9 @@ Now we have the miscellaneous options. Filling these fields is not mandatory, th
 2. **confirm_berths** : Book only if confirm berths are allotted.
 
 For the below 3 options, at max one of them is to be selected as **Y**. <br />
-  3. **all_berths** : Book only if all berths are allotted in the same coach. <br />
-  4. **one_lb** : Book only if at least one lower berth is allotted. <br />
-  5. **two_lb** : Book only if at least two lower berths are allotted. <br />
+&nbsp &nbsp 3. **all_berths** : Book only if all berths are allotted in the same coach. <br />
+&nbsp &nbsp 4. **one_lb** : Book only if at least one lower berth is allotted. <br />
+&nbsp &nbsp 5. **two_lb** : Book only if at least two lower berths are allotted. <br />
 
 6. **preferred_coach_id** : If yes, enter the coach id in the next field.
 7. **coach_id** : To be entered only if the previous field is set to **Y**. For eg., if you are booking in sleeper class and ant your                     seat in S7 coach, enter **S7** in this field.
