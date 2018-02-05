@@ -1,0 +1,98 @@
+# ------------------  USER INPUT -------------------- #
+
+username = 'abcde'
+password = 'abcde'
+
+source = 'CSTM'
+destination = 'NDLS'
+DOJ = '06-02-2018'
+
+train_no = '12909'
+travelling_class = '3A'
+boarding_station = ''
+quota = 'TQ'
+
+''' ADULT PASSENGER DETAILS '''
+
+passenger_1 = 'PRANEET'
+age_1 = '19'
+gender_1 = 'M'
+berth_1 = ''
+meal_1 = ''
+concession_preference_1 = ''
+bed_roll_1 = ''
+
+passenger_2 = 'ROHIT'
+age_2 = '22'
+gender_2 = 'M'
+berth_2 = ''
+meal_2 = ''
+concession_preference_2 = ''
+bed_roll_2 = ''
+
+passenger_3 = 'SHASHWAT'
+age_3 = '21'
+gender_3 = 'M'
+berth_3 = ''
+meal_3 = ''
+concession_preference_3 = ''
+bed_roll_3 = ''
+
+passenger_4 = ''
+age_4 = ''
+gender_4 = ''
+berth_4 = ''
+meal_4 = ''
+concession_preference_4 = ''
+bed_roll_4 = ''
+
+passenger_5 = ''
+age_5 = ''
+gender_5 = ''
+berth_5 = ''
+meal_5 = ''
+concession_preference_5 = ''
+bed_roll_5 = ''
+
+passenger_6 = ''
+age_6 = ''
+gender_6 = ''
+berth_6 = ''
+meal_6 = ''
+concession_preference_6 = ''
+bed_roll_6 = ''
+
+''' CHILD PASSENGER DETAILS (Less than age 5) '''
+
+child_passenger_1 = ''
+child_age_1 = ''
+child_gender_1 = ''
+
+child_passenger_2 = ''
+child_age_2 = ''
+child_gender_2 = ''
+
+''' MISCELLANEOUS OPTIONS '''
+
+auto_upgrade = 'Y'
+confirm_berths = 'Y'
+
+all_berths = 'Y'
+one_lb = 'N'
+two_lb = 'N'
+
+preferred_coach_id = 'Y'
+coach_id = 'G9'
+mobile_no = '9876543210'
+
+''' PAYMENT OPTIONS '''
+
+auto_payment = 'Y'
+auto_payment_option = '1'
+auto_payment_suboption = '1'
+eWallet_password = ''
+
+card_id = '1234567890123456789'
+card_validity_month = '04'
+card_validity_year = '2006'
+card_name = 'JOHN WARWICK'
