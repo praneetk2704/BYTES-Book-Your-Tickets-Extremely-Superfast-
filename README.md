@@ -34,10 +34,22 @@ Also in tatkal quota, the credentials of only the first 4 passengers (1-4) will 
 
 Now comes the child passenger details. At most 2 children can be booked on a single ticket. Three details exist for each child. These are mentioned in the same order as the script.
 1. **child_passenger** : Name of the child. To be entered in uppercase.
-2. **child_age** : Age of the child. (**0** = Below onw year, **1** = One year, **2** = Two years, **3** = Three years, **4** = Four                        years. For eg., if the child is below one year, enter **0** in this field.)
+2. **child_age** : Age of the child. (**0** = Below one year, **1** = One year, **2** = Two years, **3** = Three years, **4** = Four                        years. For eg., if the child is below one year, enter **0** in this field.)
 3. **child_gender** : Gender of the child. (**M** = Male, **F** = Female. For eg., if the child is male, enter **M** in this field.)
 
-Now we have the miscellaneous options. Filling these fields is not mandatory, though you can always choose. Again, these are mentioned in the same order as in the script. For the uninitiated, I'm talking about this secton. <br /><br />
+Now we have the miscellaneous options. Filling these fields is not mandatory, though you can always choose. For all these options, enter **Y** if you wish to select it, else enter **N**. Again, these are mentioned in the same order as in the script. For the uninitiated, I'm talking about this secton. <br /><br />
 ![screenshot_3](https://user-images.githubusercontent.com/29803330/35811911-a6597d56-0ab5-11e8-9d0d-eeb64b7ccd66.jpg) <br />
 
-1. **auto_upgrade** : 
+1. **auto_upgrade** : Consider for auto-upgradation.
+2. **confirm_berths** : Book only if confirm berths are allotted.
+
+For the below 3 options, at max one of them is to be selected as **Y**.
+3. **all_berths** : Book only if all berths are allotted in the same coach.
+4. **one_lb** : Book only if at least one lower berth is allotted.
+5. **two_lb** : Book only if at least two lower berths are allotted.
+
+6. **preferred_coach_id** : If yes, enter the coach id in the next field.
+7. **coach_id** : To be entered only if the previous field is set to **Y**. For eg., if you are booking in sleeper class and ant your                     seat in S7 coach, enter **S7** in this field.
+8. **mobile_no** : Contact number where your ticket will be sent. Mandatory field.
+
+Now comes another important part, the payment section.
