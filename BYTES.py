@@ -336,7 +336,6 @@ not the best method, but still works.'''
 for i in range(0, pax):
     actions = ActionChains(driver)
     age_id = 'addPassengerForm:psdetail:' + str(i) + ':psgnAge'
-    print(age_id)
     tab_id = driver.find_element_by_id(age_id)
     if adults_detail[i][2] == 'F':
         tab_id.send_keys(Keys.TAB + Keys.ARROW_RIGHT)
