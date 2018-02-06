@@ -2,9 +2,10 @@
 
 When was the last time you tried to book a Tatkal ticket but failed to do so owing to its high demand? Well, no worries, BYTES is there to help you out. It's a Python script that lets you book tatkal tickets within a minute. Selenium is used here for scraping and form-filling. 
 
+Link for demo video : https://drive.google.com/open?id=1_1j26VT7551Q2OjSGdNYIieUB86znLIp <br />
+Refer to Sample Input.txt for the user input used for the demo video.
 
 Now let's come to the good part. In order to speedily book your tickets, all you gotta do is input all the data like source, destination, date of journey, passenger details, etc. The user input part is the most important part of the script. If you fill up the data in perfect accordance with the steps given below, your ticket will be booked for sure. And please make sure that all the input is entered within inverted commas. 
-
 
 These are the following fields you'll have to enter as user input in the script. The order given here is the same as the order in the script.
 
@@ -91,8 +92,5 @@ Now that we are done with the user input, here are a few tips for tatkal ticket 
 I know that many Google Chrome extensions exist which do the same job, but here is where BYTES has an edge over the others.
 1. Google Chrome extensions require you to enter your login credentials and in some cases, your bank account details. There is a chance that your details might be misused as you don't know what's happening in the background. BYTES being open source, all your data is stored locally in the Python file and is visible to you. So if you are paranoid about your login credentials or bank details, BYTES is there for you. I agree that it doesn't have a fancy UI, but hey, it gets the job done!
 2. Ability to handle alert boxes, saving you a few more seconds. You'll know what I'm talking about after seeing the demo video.
-
-Link for demo video : https://drive.google.com/open?id=1_1j26VT7551Q2OjSGdNYIieUB86znLIp <br />
-Refer to Sample Input.txt for the user input used for the demo video.
 
 Happy journey!
