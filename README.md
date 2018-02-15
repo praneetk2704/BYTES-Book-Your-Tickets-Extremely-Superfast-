@@ -3,9 +3,9 @@
 When was the last time you tried to book a Tatkal ticket but failed to do so owing to its high demand? Well, no worries, BYTES is there to help you out. It's a Python script that lets you book tatkal tickets within a minute. Selenium is used here for scraping and form-filling. 
 
 Link for demo video : https://drive.google.com/open?id=1bWTtw5QXgoilL7JwXem5hqjDQjv-_JuM <br />
-In this video, I have tried booking a ticket on the NZM - BDTS Garib Rath, condisered to be a high priority train on the Delhi - Mumbai route. Since I did not actually need this ticket, in the video, the point where the bank details are entered are shown. This process takes about 45 seconds. Conisdering another 10 seconds for filling in your CVV and captcha and another 5 seconds for the booking to complete, the time taken comes to be about a minute.
+In this video, I have tried booking a ticket on the NZM - BDTS Garib Rath, condisered to be a high priority train on the Delhi - Mumbai route. Since I did not actually need this ticket, in the video, the point where the bank details are entered are shown. This process takes about 45 seconds. Conisdering another 10 seconds for filling in your CVV and captcha and another 5 seconds for the booking to complete, the time taken comes to be about a minute. <br />
 Refer to Sample Input.txt for the user input used for the demo video. <br /><br />
-Here is another link where the ticket is booked, though this one took a bit more time due to the inevitable slowing down of the IRCTC servers. The ticket was booked here in 90 seconds.
+Here is another video where the ticket is booked, though this one took a bit more time due to the inevitable slowing down of the IRCTC servers. The ticket was booked here in 90 seconds.<br />
 https://drive.google.com/open?id=11ItT_vi9vK4JPNSOgFw_FUqc8gqxUizh
 
 Now let's come to the good part. In order to speedily book your tickets, all you gotta do is input all the data like source, destination, date of journey, passenger details, etc. The user input part is the most important part of the script. If you fill up the data in perfect accordance with the steps given below, your ticket will be booked for sure. And please make sure that all the input is entered within inverted commas. 
