@@ -150,7 +150,7 @@ capa = DesiredCapabilities.CHROME
 capa["pageLoadStrategy"] = "none"                     # Enable explicit wait.
 options = webdriver.ChromeOptions()
 options.add_argument('--start-maximized')             # Start Chrome maximized.
-url = 'http://www.irctc.co.in'
+url = 'https://www.irctc.co.in/eticketing/loginHome.jsf'
 driver = webdriver.Chrome('E:\Python\chromedriver.exe', desired_capabilities=capa, chrome_options=options)  # Arguments
 driver.get(url)
 
