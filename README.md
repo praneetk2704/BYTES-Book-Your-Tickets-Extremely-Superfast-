@@ -1,5 +1,10 @@
 # BYTES-Book-Your-Tickets-Extremely-Superfast-
 
+
+**IMPORTANT :**
+**This script no longer works as IRCTC has revamped its website. No worries, BYTES v2.0 for the new website will be launched soon!**
+<br /><br />
+
 When was the last time you tried to book a Tatkal ticket but failed to do so owing to its high demand? Well, no worries, BYTES is there to help you out. It's a Python script that lets you book tatkal tickets within a minute. Selenium is used here for scraping and form-filling. 
 
 Link for demo video : https://drive.google.com/open?id=1bWTtw5QXgoilL7JwXem5hqjDQjv-_JuM <br />
